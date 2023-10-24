@@ -1,0 +1,100 @@
+.module_errors{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.module_errors .error{
+    color: red;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.add_rule{
+    text-decoration: none;
+    font-size: 16px;
+    color: #2d2d2d;
+}
+.add_rule:hover{
+    transition: .3s;
+    color: #000;
+    text-decoration: none;
+}
+
+.rule_container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+.rule_item{
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.rule_container table{
+    width: 100%;
+}
+
+.rule_container table td{
+    padding: 0 4px;
+}
+
+.rule_item select{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.rule_item input{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.width360{
+    width: 360px;
+    min-width: 360px;
+    max-width: 360px;
+}
+.width50{
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+    text-align: left;
+}
+
+.button_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button_container .status{
+    margin-left: 24px;
+    font-size: 16px;
+}
+
+.button_container .status.success{
+    color: #0DC268;
+}
+
+.button_container .status.error{
+    color: #ED0A34;
+}
+
+.delete_item{
+    fill: black;
+    color: black;
+    stroke: black;
+}
+
+.delete_item:hover{
+    transition: .3s;
+    fill: red;
+    color: red;
+    stroke: red;
+}
